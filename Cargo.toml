@@ -1,0 +1,18 @@
+[package]
+name = "greenmag_development"
+version = "0.3.0"
+edition = "2021"
+build = "build.rs"
+
+
+[dependencies]  
+which = "4.2"
+
+[dependencies.reqwest]
+version = "0.11"
+features = ["blocking", "json"]
+[build-dependencies]
+winres = "0.1"
+
+
+
